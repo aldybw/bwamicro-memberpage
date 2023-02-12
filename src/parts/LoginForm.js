@@ -1,13 +1,21 @@
-import { useState } from "react";
-
 import { withRouter } from "react-router-dom";
+import { useDispatch } from "react-redux";
 
-import { setAuthorizationHeader } from "configs/axios";
 import users from "constants/api/users";
 
+import { setAuthorizationHeader } from "configs/axios";
+
+import { populateProfile } from "store/actions/users";
+
+import useForm from "helpers/hooks/useForm";
+
 function LoginForm({ history }) {
-  const [email, setEmail] = useState(() => "");
-  const [password, setPassword] = useState(() => "");
+  const dispatch = useDispatch();
+
+  const [{ email, password }, setState] = useForm({
+    email: "",
+    password: "",
+  });
 
   function submit(e) {
     e.preventDefault();
@@ -17,6 +25,7 @@ function LoginForm({ history }) {
       .then((res) => {
         setAuthorizationHeader(res.data.token);
         users.details().then((detail) => {
+          dispatch(populateProfile(detail.data));
           const production =
             process.env.REACT_APP_FRONTPAGE_URL ===
             "https://micro.buildwithangga.id"
@@ -64,8 +73,9 @@ function LoginForm({ history }) {
               Email Address
             </label>
             <input
+              name="email"
               type="email"
-              onChange={(event) => setEmail(event.target.value)}
+              onChange={setState}
               className="bg-white focus:outline-none border w-full px-6 py-3 border-gray-600 focus:border-teal-500"
               value={email}
               placeholder="Your email address"
@@ -76,8 +86,9 @@ function LoginForm({ history }) {
               Password
             </label>
             <input
+              name="password"
               type="password"
-              onChange={(event) => setPassword(event.target.value)}
+              onChange={setState}
               className="bg-white focus:outline-none border w-full px-6 py-3 border-gray-600 focus:border-teal-500"
               value={password}
               placeholder="Your password"
