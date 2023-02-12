@@ -62,8 +62,8 @@ function LoginForm({ history }) {
 
   return (
     <div className="flex justify-center items-center pb-24">
-      <div className="w-3/12">
-        <h1 className="text-3xl text-gray-900 mb-6">
+      <div className="w-4/12">
+        <h1 className="text-4xl text-gray-900 mb-6">
           <span className="font-bold">Continue</span> Study, <br />
           Finish your <span className="font-bold">Goals</span>
         </h1>
@@ -98,7 +98,7 @@ function LoginForm({ history }) {
             type="submit"
             className="bg-orange-500 hover:bg-orange-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3 mt-4 w-full"
           >
-            Daftar Now
+            Masuk
           </button>
         </form>
       </div>

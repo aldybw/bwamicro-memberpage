@@ -581,8 +581,8 @@ video {
 
 .container{
   width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 @media (min-width: 640px){
@@ -1253,8 +1253,8 @@ video {
 
 .divide-red-500 > :not(template) ~ :not(template){
   --divide-opacity: 1;
-  border-color: #f56565;
-  border-color: rgba(245, 101, 101, var(--divide-opacity));
+  border-color: #ff3434;
+  border-color: rgba(255, 52, 52, var(--divide-opacity));
 }
 
 .divide-red-600 > :not(template) ~ :not(template){
@@ -1938,8 +1938,8 @@ video {
 
 .bg-red-500{
   --bg-opacity: 1;
-  background-color: #f56565;
-  background-color: rgba(245, 101, 101, var(--bg-opacity));
+  background-color: #ff3434;
+  background-color: rgba(255, 52, 52, var(--bg-opacity));
 }
 
 .bg-red-600{
@@ -2504,8 +2504,8 @@ video {
 
 .hover\:bg-red-500:hover{
   --bg-opacity: 1;
-  background-color: #f56565;
-  background-color: rgba(245, 101, 101, var(--bg-opacity));
+  background-color: #ff3434;
+  background-color: rgba(255, 52, 52, var(--bg-opacity));
 }
 
 .hover\:bg-red-600:hover{
@@ -3070,8 +3070,8 @@ video {
 
 .focus\:bg-red-500:focus{
   --bg-opacity: 1;
-  background-color: #f56565;
-  background-color: rgba(245, 101, 101, var(--bg-opacity));
+  background-color: #ff3434;
+  background-color: rgba(255, 52, 52, var(--bg-opacity));
 }
 
 .focus\:bg-red-600:focus{
@@ -3658,8 +3658,8 @@ video {
 }
 
 .from-red-500{
-  --gradient-from-color: #f56565;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+  --gradient-from-color: #ff3434;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
 }
 
 .from-red-600{
@@ -4133,8 +4133,8 @@ video {
 }
 
 .via-red-500{
-  --gradient-via-color: #f56565;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+  --gradient-via-color: #ff3434;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
 }
 
 .via-red-600{
@@ -4591,7 +4591,7 @@ video {
 }
 
 .to-red-500{
-  --gradient-to-color: #f56565;
+  --gradient-to-color: #ff3434;
 }
 
 .to-red-600{
@@ -4988,8 +4988,8 @@ video {
 }
 
 .hover\:from-red-500:hover{
-  --gradient-from-color: #f56565;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+  --gradient-from-color: #ff3434;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
 }
 
 .hover\:from-red-600:hover{
@@ -5463,8 +5463,8 @@ video {
 }
 
 .hover\:via-red-500:hover{
-  --gradient-via-color: #f56565;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+  --gradient-via-color: #ff3434;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
 }
 
 .hover\:via-red-600:hover{
@@ -5921,7 +5921,7 @@ video {
 }
 
 .hover\:to-red-500:hover{
-  --gradient-to-color: #f56565;
+  --gradient-to-color: #ff3434;
 }
 
 .hover\:to-red-600:hover{
@@ -6318,8 +6318,8 @@ video {
 }
 
 .focus\:from-red-500:focus{
-  --gradient-from-color: #f56565;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+  --gradient-from-color: #ff3434;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
 }
 
 .focus\:from-red-600:focus{
@@ -6793,8 +6793,8 @@ video {
 }
 
 .focus\:via-red-500:focus{
-  --gradient-via-color: #f56565;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+  --gradient-via-color: #ff3434;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
 }
 
 .focus\:via-red-600:focus{
@@ -7251,7 +7251,7 @@ video {
 }
 
 .focus\:to-red-500:focus{
-  --gradient-to-color: #f56565;
+  --gradient-to-color: #ff3434;
 }
 
 .focus\:to-red-600:focus{
@@ -7802,8 +7802,8 @@ video {
 
 .border-red-500{
   --border-opacity: 1;
-  border-color: #f56565;
-  border-color: rgba(245, 101, 101, var(--border-opacity));
+  border-color: #ff3434;
+  border-color: rgba(255, 52, 52, var(--border-opacity));
 }
 
 .border-red-600{
@@ -8368,8 +8368,8 @@ video {
 
 .hover\:border-red-500:hover{
   --border-opacity: 1;
-  border-color: #f56565;
-  border-color: rgba(245, 101, 101, var(--border-opacity));
+  border-color: #ff3434;
+  border-color: rgba(255, 52, 52, var(--border-opacity));
 }
 
 .hover\:border-red-600:hover{
@@ -8934,8 +8934,8 @@ video {
 
 .focus\:border-red-500:focus{
   --border-opacity: 1;
-  border-color: #f56565;
-  border-color: rgba(245, 101, 101, var(--border-opacity));
+  border-color: #ff3434;
+  border-color: rgba(255, 52, 52, var(--border-opacity));
 }
 
 .focus\:border-red-600:focus{
@@ -12960,8 +12960,8 @@ video {
 
 .placeholder-red-500::placeholder{
   --placeholder-opacity: 1;
-  color: #f56565;
-  color: rgba(245, 101, 101, var(--placeholder-opacity));
+  color: #ff3434;
+  color: rgba(255, 52, 52, var(--placeholder-opacity));
 }
 
 .placeholder-red-600::placeholder{
@@ -13526,8 +13526,8 @@ video {
 
 .focus\:placeholder-red-500:focus::placeholder{
   --placeholder-opacity: 1;
-  color: #f56565;
-  color: rgba(245, 101, 101, var(--placeholder-opacity));
+  color: #ff3434;
+  color: rgba(255, 52, 52, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-red-600:focus::placeholder{
@@ -14331,7 +14331,7 @@ video {
 }
 
 .fill-red-500{
-  fill: #f56565;
+  fill: #ff3434;
 }
 
 .fill-red-600{
@@ -14782,8 +14782,8 @@ video {
 
 .text-red-500{
   --text-opacity: 1;
-  color: #f56565;
-  color: rgba(245, 101, 101, var(--text-opacity));
+  color: #ff3434;
+  color: rgba(255, 52, 52, var(--text-opacity));
 }
 
 .text-red-600{
@@ -15348,8 +15348,8 @@ video {
 
 .hover\:text-red-500:hover{
   --text-opacity: 1;
-  color: #f56565;
-  color: rgba(245, 101, 101, var(--text-opacity));
+  color: #ff3434;
+  color: rgba(255, 52, 52, var(--text-opacity));
 }
 
 .hover\:text-red-600:hover{
@@ -15914,8 +15914,8 @@ video {
 
 .focus\:text-red-500:focus{
   --text-opacity: 1;
-  color: #f56565;
-  color: rgba(245, 101, 101, var(--text-opacity));
+  color: #ff3434;
+  color: rgba(255, 52, 52, var(--text-opacity));
 }
 
 .focus\:text-red-600:focus{
@@ -20211,8 +20211,8 @@ svg#svg-star {
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px){
@@ -20883,8 +20883,8 @@ svg#svg-star {
 
   .sm\:divide-red-500 > :not(template) ~ :not(template){
     --divide-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--divide-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--divide-opacity));
   }
 
   .sm\:divide-red-600 > :not(template) ~ :not(template){
@@ -21568,8 +21568,8 @@ svg#svg-star {
 
   .sm\:bg-red-500{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .sm\:bg-red-600{
@@ -22134,8 +22134,8 @@ svg#svg-star {
 
   .sm\:hover\:bg-red-500:hover{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-red-600:hover{
@@ -22700,8 +22700,8 @@ svg#svg-star {
 
   .sm\:focus\:bg-red-500:focus{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-red-600:focus{
@@ -23288,8 +23288,8 @@ svg#svg-star {
   }
 
   .sm\:from-red-500{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .sm\:from-red-600{
@@ -23763,8 +23763,8 @@ svg#svg-star {
   }
 
   .sm\:via-red-500{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .sm\:via-red-600{
@@ -24221,7 +24221,7 @@ svg#svg-star {
   }
 
   .sm\:to-red-500{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .sm\:to-red-600{
@@ -24618,8 +24618,8 @@ svg#svg-star {
   }
 
   .sm\:hover\:from-red-500:hover{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .sm\:hover\:from-red-600:hover{
@@ -25093,8 +25093,8 @@ svg#svg-star {
   }
 
   .sm\:hover\:via-red-500:hover{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .sm\:hover\:via-red-600:hover{
@@ -25551,7 +25551,7 @@ svg#svg-star {
   }
 
   .sm\:hover\:to-red-500:hover{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .sm\:hover\:to-red-600:hover{
@@ -25948,8 +25948,8 @@ svg#svg-star {
   }
 
   .sm\:focus\:from-red-500:focus{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .sm\:focus\:from-red-600:focus{
@@ -26423,8 +26423,8 @@ svg#svg-star {
   }
 
   .sm\:focus\:via-red-500:focus{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .sm\:focus\:via-red-600:focus{
@@ -26881,7 +26881,7 @@ svg#svg-star {
   }
 
   .sm\:focus\:to-red-500:focus{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .sm\:focus\:to-red-600:focus{
@@ -27432,8 +27432,8 @@ svg#svg-star {
 
   .sm\:border-red-500{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .sm\:border-red-600{
@@ -27998,8 +27998,8 @@ svg#svg-star {
 
   .sm\:hover\:border-red-500:hover{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .sm\:hover\:border-red-600:hover{
@@ -28564,8 +28564,8 @@ svg#svg-star {
 
   .sm\:focus\:border-red-500:focus{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .sm\:focus\:border-red-600:focus{
@@ -32590,8 +32590,8 @@ svg#svg-star {
 
   .sm\:placeholder-red-500::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .sm\:placeholder-red-600::placeholder{
@@ -33156,8 +33156,8 @@ svg#svg-star {
 
   .sm\:focus\:placeholder-red-500:focus::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-red-600:focus::placeholder{
@@ -33961,7 +33961,7 @@ svg#svg-star {
   }
 
   .sm\:fill-red-500{
-    fill: #f56565;
+    fill: #ff3434;
   }
 
   .sm\:fill-red-600{
@@ -34412,8 +34412,8 @@ svg#svg-star {
 
   .sm\:text-red-500{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .sm\:text-red-600{
@@ -34978,8 +34978,8 @@ svg#svg-star {
 
   .sm\:hover\:text-red-500:hover{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .sm\:hover\:text-red-600:hover{
@@ -35544,8 +35544,8 @@ svg#svg-star {
 
   .sm\:focus\:text-red-500:focus{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .sm\:focus\:text-red-600:focus{
@@ -39491,8 +39491,8 @@ svg#svg-star {
 @media (min-width: 768px){
   .md\:container{
     width: 100%;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px){
@@ -40163,8 +40163,8 @@ svg#svg-star {
 
   .md\:divide-red-500 > :not(template) ~ :not(template){
     --divide-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--divide-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--divide-opacity));
   }
 
   .md\:divide-red-600 > :not(template) ~ :not(template){
@@ -40848,8 +40848,8 @@ svg#svg-star {
 
   .md\:bg-red-500{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .md\:bg-red-600{
@@ -41414,8 +41414,8 @@ svg#svg-star {
 
   .md\:hover\:bg-red-500:hover{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .md\:hover\:bg-red-600:hover{
@@ -41980,8 +41980,8 @@ svg#svg-star {
 
   .md\:focus\:bg-red-500:focus{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .md\:focus\:bg-red-600:focus{
@@ -42568,8 +42568,8 @@ svg#svg-star {
   }
 
   .md\:from-red-500{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .md\:from-red-600{
@@ -43043,8 +43043,8 @@ svg#svg-star {
   }
 
   .md\:via-red-500{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .md\:via-red-600{
@@ -43501,7 +43501,7 @@ svg#svg-star {
   }
 
   .md\:to-red-500{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .md\:to-red-600{
@@ -43898,8 +43898,8 @@ svg#svg-star {
   }
 
   .md\:hover\:from-red-500:hover{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .md\:hover\:from-red-600:hover{
@@ -44373,8 +44373,8 @@ svg#svg-star {
   }
 
   .md\:hover\:via-red-500:hover{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .md\:hover\:via-red-600:hover{
@@ -44831,7 +44831,7 @@ svg#svg-star {
   }
 
   .md\:hover\:to-red-500:hover{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .md\:hover\:to-red-600:hover{
@@ -45228,8 +45228,8 @@ svg#svg-star {
   }
 
   .md\:focus\:from-red-500:focus{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .md\:focus\:from-red-600:focus{
@@ -45703,8 +45703,8 @@ svg#svg-star {
   }
 
   .md\:focus\:via-red-500:focus{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .md\:focus\:via-red-600:focus{
@@ -46161,7 +46161,7 @@ svg#svg-star {
   }
 
   .md\:focus\:to-red-500:focus{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .md\:focus\:to-red-600:focus{
@@ -46712,8 +46712,8 @@ svg#svg-star {
 
   .md\:border-red-500{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .md\:border-red-600{
@@ -47278,8 +47278,8 @@ svg#svg-star {
 
   .md\:hover\:border-red-500:hover{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .md\:hover\:border-red-600:hover{
@@ -47844,8 +47844,8 @@ svg#svg-star {
 
   .md\:focus\:border-red-500:focus{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .md\:focus\:border-red-600:focus{
@@ -51870,8 +51870,8 @@ svg#svg-star {
 
   .md\:placeholder-red-500::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .md\:placeholder-red-600::placeholder{
@@ -52436,8 +52436,8 @@ svg#svg-star {
 
   .md\:focus\:placeholder-red-500:focus::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-red-600:focus::placeholder{
@@ -53241,7 +53241,7 @@ svg#svg-star {
   }
 
   .md\:fill-red-500{
-    fill: #f56565;
+    fill: #ff3434;
   }
 
   .md\:fill-red-600{
@@ -53692,8 +53692,8 @@ svg#svg-star {
 
   .md\:text-red-500{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .md\:text-red-600{
@@ -54258,8 +54258,8 @@ svg#svg-star {
 
   .md\:hover\:text-red-500:hover{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .md\:hover\:text-red-600:hover{
@@ -54824,8 +54824,8 @@ svg#svg-star {
 
   .md\:focus\:text-red-500:focus{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .md\:focus\:text-red-600:focus{
@@ -58771,8 +58771,8 @@ svg#svg-star {
 @media (min-width: 1024px){
   .lg\:container{
     width: 100%;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px){
@@ -59443,8 +59443,8 @@ svg#svg-star {
 
   .lg\:divide-red-500 > :not(template) ~ :not(template){
     --divide-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--divide-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--divide-opacity));
   }
 
   .lg\:divide-red-600 > :not(template) ~ :not(template){
@@ -60128,8 +60128,8 @@ svg#svg-star {
 
   .lg\:bg-red-500{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .lg\:bg-red-600{
@@ -60694,8 +60694,8 @@ svg#svg-star {
 
   .lg\:hover\:bg-red-500:hover{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-red-600:hover{
@@ -61260,8 +61260,8 @@ svg#svg-star {
 
   .lg\:focus\:bg-red-500:focus{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-red-600:focus{
@@ -61848,8 +61848,8 @@ svg#svg-star {
   }
 
   .lg\:from-red-500{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .lg\:from-red-600{
@@ -62323,8 +62323,8 @@ svg#svg-star {
   }
 
   .lg\:via-red-500{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .lg\:via-red-600{
@@ -62781,7 +62781,7 @@ svg#svg-star {
   }
 
   .lg\:to-red-500{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .lg\:to-red-600{
@@ -63178,8 +63178,8 @@ svg#svg-star {
   }
 
   .lg\:hover\:from-red-500:hover{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .lg\:hover\:from-red-600:hover{
@@ -63653,8 +63653,8 @@ svg#svg-star {
   }
 
   .lg\:hover\:via-red-500:hover{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .lg\:hover\:via-red-600:hover{
@@ -64111,7 +64111,7 @@ svg#svg-star {
   }
 
   .lg\:hover\:to-red-500:hover{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .lg\:hover\:to-red-600:hover{
@@ -64508,8 +64508,8 @@ svg#svg-star {
   }
 
   .lg\:focus\:from-red-500:focus{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .lg\:focus\:from-red-600:focus{
@@ -64983,8 +64983,8 @@ svg#svg-star {
   }
 
   .lg\:focus\:via-red-500:focus{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .lg\:focus\:via-red-600:focus{
@@ -65441,7 +65441,7 @@ svg#svg-star {
   }
 
   .lg\:focus\:to-red-500:focus{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .lg\:focus\:to-red-600:focus{
@@ -65992,8 +65992,8 @@ svg#svg-star {
 
   .lg\:border-red-500{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .lg\:border-red-600{
@@ -66558,8 +66558,8 @@ svg#svg-star {
 
   .lg\:hover\:border-red-500:hover{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .lg\:hover\:border-red-600:hover{
@@ -67124,8 +67124,8 @@ svg#svg-star {
 
   .lg\:focus\:border-red-500:focus{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .lg\:focus\:border-red-600:focus{
@@ -71150,8 +71150,8 @@ svg#svg-star {
 
   .lg\:placeholder-red-500::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .lg\:placeholder-red-600::placeholder{
@@ -71716,8 +71716,8 @@ svg#svg-star {
 
   .lg\:focus\:placeholder-red-500:focus::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-red-600:focus::placeholder{
@@ -72521,7 +72521,7 @@ svg#svg-star {
   }
 
   .lg\:fill-red-500{
-    fill: #f56565;
+    fill: #ff3434;
   }
 
   .lg\:fill-red-600{
@@ -72972,8 +72972,8 @@ svg#svg-star {
 
   .lg\:text-red-500{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .lg\:text-red-600{
@@ -73538,8 +73538,8 @@ svg#svg-star {
 
   .lg\:hover\:text-red-500:hover{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .lg\:hover\:text-red-600:hover{
@@ -74104,8 +74104,8 @@ svg#svg-star {
 
   .lg\:focus\:text-red-500:focus{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .lg\:focus\:text-red-600:focus{
@@ -78051,8 +78051,8 @@ svg#svg-star {
 @media (min-width: 1280px){
   .xl\:container{
     width: 100%;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   @media (min-width: 640px){
@@ -78723,8 +78723,8 @@ svg#svg-star {
 
   .xl\:divide-red-500 > :not(template) ~ :not(template){
     --divide-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--divide-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--divide-opacity));
   }
 
   .xl\:divide-red-600 > :not(template) ~ :not(template){
@@ -79408,8 +79408,8 @@ svg#svg-star {
 
   .xl\:bg-red-500{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .xl\:bg-red-600{
@@ -79974,8 +79974,8 @@ svg#svg-star {
 
   .xl\:hover\:bg-red-500:hover{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-red-600:hover{
@@ -80540,8 +80540,8 @@ svg#svg-star {
 
   .xl\:focus\:bg-red-500:focus{
     --bg-opacity: 1;
-    background-color: #f56565;
-    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    background-color: #ff3434;
+    background-color: rgba(255, 52, 52, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-red-600:focus{
@@ -81128,8 +81128,8 @@ svg#svg-star {
   }
 
   .xl\:from-red-500{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .xl\:from-red-600{
@@ -81603,8 +81603,8 @@ svg#svg-star {
   }
 
   .xl\:via-red-500{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .xl\:via-red-600{
@@ -82061,7 +82061,7 @@ svg#svg-star {
   }
 
   .xl\:to-red-500{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .xl\:to-red-600{
@@ -82458,8 +82458,8 @@ svg#svg-star {
   }
 
   .xl\:hover\:from-red-500:hover{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .xl\:hover\:from-red-600:hover{
@@ -82933,8 +82933,8 @@ svg#svg-star {
   }
 
   .xl\:hover\:via-red-500:hover{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .xl\:hover\:via-red-600:hover{
@@ -83391,7 +83391,7 @@ svg#svg-star {
   }
 
   .xl\:hover\:to-red-500:hover{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .xl\:hover\:to-red-600:hover{
@@ -83788,8 +83788,8 @@ svg#svg-star {
   }
 
   .xl\:focus\:from-red-500:focus{
-    --gradient-from-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-from-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .xl\:focus\:from-red-600:focus{
@@ -84263,8 +84263,8 @@ svg#svg-star {
   }
 
   .xl\:focus\:via-red-500:focus{
-    --gradient-via-color: #f56565;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(245, 101, 101, 0));
+    --gradient-via-color: #ff3434;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 52, 52, 0));
   }
 
   .xl\:focus\:via-red-600:focus{
@@ -84721,7 +84721,7 @@ svg#svg-star {
   }
 
   .xl\:focus\:to-red-500:focus{
-    --gradient-to-color: #f56565;
+    --gradient-to-color: #ff3434;
   }
 
   .xl\:focus\:to-red-600:focus{
@@ -85272,8 +85272,8 @@ svg#svg-star {
 
   .xl\:border-red-500{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .xl\:border-red-600{
@@ -85838,8 +85838,8 @@ svg#svg-star {
 
   .xl\:hover\:border-red-500:hover{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .xl\:hover\:border-red-600:hover{
@@ -86404,8 +86404,8 @@ svg#svg-star {
 
   .xl\:focus\:border-red-500:focus{
     --border-opacity: 1;
-    border-color: #f56565;
-    border-color: rgba(245, 101, 101, var(--border-opacity));
+    border-color: #ff3434;
+    border-color: rgba(255, 52, 52, var(--border-opacity));
   }
 
   .xl\:focus\:border-red-600:focus{
@@ -90430,8 +90430,8 @@ svg#svg-star {
 
   .xl\:placeholder-red-500::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .xl\:placeholder-red-600::placeholder{
@@ -90996,8 +90996,8 @@ svg#svg-star {
 
   .xl\:focus\:placeholder-red-500:focus::placeholder{
     --placeholder-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--placeholder-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-red-600:focus::placeholder{
@@ -91801,7 +91801,7 @@ svg#svg-star {
   }
 
   .xl\:fill-red-500{
-    fill: #f56565;
+    fill: #ff3434;
   }
 
   .xl\:fill-red-600{
@@ -92252,8 +92252,8 @@ svg#svg-star {
 
   .xl\:text-red-500{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .xl\:text-red-600{
@@ -92818,8 +92818,8 @@ svg#svg-star {
 
   .xl\:hover\:text-red-500:hover{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .xl\:hover\:text-red-600:hover{
@@ -93384,8 +93384,8 @@ svg#svg-star {
 
   .xl\:focus\:text-red-500:focus{
     --text-opacity: 1;
-    color: #f56565;
-    color: rgba(245, 101, 101, var(--text-opacity));
+    color: #ff3434;
+    color: rgba(255, 52, 52, var(--text-opacity));
   }
 
   .xl\:focus\:text-red-600:focus{

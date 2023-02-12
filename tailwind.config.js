@@ -114,7 +114,7 @@ module.exports = {
       none: "none",
     },
     container: {
-      padding: "2rem",
+      padding: "4rem",
     },
     cursor: {
       auto: "auto",
