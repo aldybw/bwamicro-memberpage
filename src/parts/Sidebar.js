@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as DefaultUser } from "assets/images/default-avatar.svg";
 import { Link, withRouter } from "react-router-dom";
 import { useSelector } from "react-redux";
+import users from "constants/api/users";
 
 function Sidebar({ match, history }) {
   const getNavLinkClass = (path) => {
@@ -10,11 +11,13 @@ function Sidebar({ match, history }) {
       : "text-indigo-500";
   };
 
-  const users = useSelector((state) => state.users);
+  const USERS = useSelector((state) => state.users);
 
   function logout() {
-    history.push("/login");
-    localStorage.removeItem("BWAMICRO:token");
+    users.logout().then(() => {
+      localStorage.removeItem("BWAMICRO:token");
+      history.push("/login");
+    });
   }
 
   return (
@@ -28,19 +31,21 @@ function Sidebar({ match, history }) {
       >
         <div className="flex flex-col text-center mt-8">
           <div className="border border-indigo-500 mx-auto p-2 inline-flex rounded-full overflow-hidden mb-3">
-            {users?.avatar ? (
-              <img src={users?.avatar} alt={users?.name} />
+            {USERS?.avatar ? (
+              <img
+                className="object-cover w-24 h-24"
+                // src={USERS?.avatar}
+                src={`http://${USERS?.avatar}`}
+                alt={USERS?.name}
+              />
             ) : (
-              <DefaultUser
-                className="fill-indigo-500"
-                style={{ width: 90, height: 90 }}
-              ></DefaultUser>
+              <DefaultUser className="fill-indigo-500 w-24 h-24"></DefaultUser>
             )}
           </div>
 
-          <h6 className="text-white text-xl">{users?.name ?? "Username"}</h6>
+          <h6 className="text-white text-xl">{USERS?.name ?? "Username"}</h6>
           <span className="text-indigo-500 text-sm">
-            {users?.profession ?? "Profession"}
+            {USERS?.profession ?? "Profession"}
           </span>
         </div>
 
@@ -98,11 +103,11 @@ function Sidebar({ match, history }) {
           <li>
             <button
               className={[
-                "nav-link relative flex items-center py-3 px-5 transition-all duration-200 hover:text-white active:text-white focus:outline-none w-full text-left text-indigo-500",
+                "nav-link relative text-indigo-500 flex items-center py-3 px-5 transition-all duration-200 hover:text-white active:text-white focus:outline-none w-full text-left",
               ].join(" ")}
               onClick={logout}
             >
-              Log Out
+              Logout
             </button>
           </li>
         </ul>
