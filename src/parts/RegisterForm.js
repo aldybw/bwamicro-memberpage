@@ -54,7 +54,7 @@ function RegisterForm({ history }) {
             name="name"
             type="text"
             onChange={setState}
-            placeholder="Your Name"
+            placeholder="Your name"
             labelName="Full Name"
           />
 
@@ -64,7 +64,7 @@ function RegisterForm({ history }) {
             name="email"
             type="email"
             onChange={setState}
-            placeholder="Your Email Address"
+            placeholder="Your email address"
             labelName="Email Address"
           />
 
@@ -74,7 +74,7 @@ function RegisterForm({ history }) {
             name="password"
             type="password"
             onChange={setState}
-            placeholder="Your Password"
+            placeholder="Your password"
             labelName="Password"
           />
 
@@ -99,7 +99,7 @@ function RegisterForm({ history }) {
               name="otherProfession"
               type="text"
               onChange={setState}
-              placeholder="Your Occupation"
+              placeholder="Your occupation"
               labelName="Other Occupation"
             />
           )}
