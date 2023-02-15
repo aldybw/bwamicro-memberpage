@@ -12,6 +12,7 @@ import Login from "pages/Login";
 import MyClass from "pages/MyClass";
 import Register from "pages/Register";
 import Settings from "pages/Settings";
+import Transactions from "pages/Transactions";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Route, Router, Switch } from "react-router-dom";
@@ -62,6 +63,10 @@ function App() {
             component={DetailsClass}
           ></MemberRoute>
           <MemberRoute path="/settings" component={Settings}></MemberRoute>
+          <MemberRoute
+            path="/transactions"
+            component={Transactions}
+          ></MemberRoute>
 
           <Route path="*" component={NotFound}></Route>
         </Switch>
