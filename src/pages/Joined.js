@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ServerError from "pages/500";
 import Loading from "parts/Loading";
 import { useEffect, useState } from "react";
+import { useCallback } from "react";
 
 export default function Joined({ history, match }) {
   const [state, setState] = useState(() => ({
@@ -11,31 +12,25 @@ export default function Joined({ history, match }) {
     data: {},
   }));
 
-  useEffect(() => {
-    courses
-      .details(match.params.class)
-      .then((res) => {
-        setState({ isLoading: false, isError: false, data: res });
-      })
-      .catch((err) => {
-        setState({ isLoading: false, isError: true, data: null });
-      });
+  const joining = useCallback(async () => {
+    try {
+      const details = await courses.details(match.params.class);
+
+      const joined = await courses.join(match.params.class);
+      if (joined.data.snap_url) window.location.href = joined.data.snap_url;
+      else setState({ isLoading: false, isError: false, data: details });
+    } catch (error) {
+      if (error?.response?.data?.message === "user already take this course")
+        history.push(`/courses/${match.params.class}`);
+    }
   }, [match.params.class]);
+
+  useEffect(() => {
+    joining();
+  }, [joining]);
 
   if (state.isLoading) return <Loading></Loading>;
   if (state.isError) return <ServerError></ServerError>;
-
-  function joining() {
-    courses
-      .join(match.params.class)
-      .then((res) => {
-        history.push(`/courses/${match.params.class}`);
-      })
-      .catch((err) => {
-        if (err?.response?.data?.message === "user already take this course")
-          history.push(`/courses/${match.params.class}`);
-      });
-  }
 
   return (
     <section className="h-screen flex flex-col items-center mt-24">
@@ -48,13 +43,12 @@ export default function Joined({ history, match }) {
         You have successfully joined our{" "}
         <strong>{state?.data?.name ?? "Class Name"}</strong> class
       </p>
-      <span
-        onClick={joining}
-        to="/"
+      <Link
+        to={`/courses/${match.params.class}`}
         className="cursor-pointer bg-orange-500 hover:bg-orange-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3 mt-5"
       >
         Start learn
-      </span>
+      </Link>
     </section>
   );
 }

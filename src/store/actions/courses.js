@@ -10,15 +10,15 @@ export const statusCourses = (status) => ({
   payload: status,
 });
 
-export const fetchCourses = (status) => ({
+export const fetchCourses = (courses) => ({
   type: FETCH_COURSES,
-  payload: status,
+  payload: courses,
 });
-export const watchCourse = (status) => ({
+export const watchCourse = (course) => ({
   type: WATCH_COURSE,
-  payload: status,
+  payload: course,
 });
-export const messageCourse = (status) => ({
+export const messageCourse = (message) => ({
   type: MESSAGE_COURSE,
-  payload: status,
+  payload: message,
 });
